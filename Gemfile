@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 source "https://rubygems.org"
 
 group :development do
@@ -17,3 +18,7 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.4.2'
+=======
+source 'https://rubygems.org'
+gem 'github-pages'
+>>>>>>> b0e5c089768156e8dbadb6f1b455b60261d7cd70
