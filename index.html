@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>@13scoobie</title>
+    
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="flyout.js"></script>
+    <link rel="stylesheet" href="flyout_css.css">
+    <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -14,8 +19,57 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+        <script>
+      /*jQuery time*/
+      $(document).ready(function(){
+        $(".offcanvas li a").click(function(){
+          //slide up all the link lists
+          $(".offcanvas ul ul").slideUp();
+          //slide down the link list below the h3 clicked - only if its closed
+          if(!$(this).next().is(":visible"))
+          {
+            $(this).next().slideDown();
+          }
+        })
+      });
+    </script>
   </head>
-  <body>
+  <body class="home nav-collapsed">
+
+<nav class="offcanvas" role="navigation">
+    <ul>
+      <li><a href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+      <li><a><i class="fa fa-camera-retro fa-lg"></i> <span>Development</span></a>
+        <ul>
+          <li><a href="index2.html"><i class="fa fa-camera-retro fa-lg"></i> Game Development</a></li>
+          <li><a href="#"><i class="fa fa-bus fa-lg"></i> Unity Engine</a></li>
+          <li><a href="#"><i class="fa fa-twitch fa-lg"></i>  Android Development</a></li>
+          <li><a href="#"><i class="fa fa-line-chart fa-lg"></i>  OSX/iOS Development</a></li>
+          <li><a href="#"><i class="fa fa-bell-o fa-lg"></i>  SharePoint Development</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><i class="fa fa-bank fa-lg"></i>  Programming Challenges</a>
+        <ul>
+          <li><a href="#"><i class="fa fa-camera-retro fa-lg"></i> Hackerrank</a></li>
+          <li><a href="#"><i class="fa fa-bus fa-lg"></i> ProjectEuler</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><i class="fa fa-bell-o fa-lg"></i>  Web Design</a></li>
+      <li><a><i class="fa fa-bus fa-lg"></i> Hobbies</a>
+        <ul>
+          <li><a href="#"><i class="fa fa-cc-visa fa-lg"></i> Xbox (Played/Reviewed/Guides)</a></li>
+          <li><a href="#"><i class="fa fa-google-wallet fa-lg"></i> Movies (Watched/Reviewed)</a></li>
+          <li><a href="#"><i class="fa fa-automobile fa-lg"></i>  Subarus</a></li>
+        </ul>
+      </li>
+
+
+
+
+    </ul>
+
+</nav>
+<div class="content-frame">
     <div class="wrapper">
       <header>
         <h2>13scoobie <- That's Me!</h2>
@@ -111,6 +165,6 @@ $ git checkout gh-pages
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    </div>
   </body>
 </html>
