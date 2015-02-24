@@ -11,17 +11,17 @@ app.controller("leftNavController", function($scope) {
 
 app.controller("rightHandController", function($scope) {
     $scope.rightContent = [
-        {title: "Project Euler", href: "#", description:  "test description 1"},
-        {title: "Hacker Rank", href: "#",  description: "test description 2"},
-        {title: "Over the Wire", href: "#",  description: "test description 3"},
-        {title: "Unity Game Development (tbd)", href: "#",  description: "test description 6"},
-        {title: "Windows Phone Development (tbd)", href: "#",  description: "test description 7"},
-        {title: "Windows 10 Development (tbd)", href: "#",  description: "test description 7"},
-        {title: "Android Development (tbd)", href: "#",  description: "test description 7"},
-        {title: "iOS Development (tbd)", href: "#",  description: "test description 7"},
-        {title: "Movies (tbd)", href: "#",  description: "test description 4"},
-        {title: "Xbox Games (tbd)", href: "#",  description: "test description 5"},
-        {title: "Apps I Use", href: "#",  description: "test description 4"},
-        {title: "Blogs I Read", href: "#",  description: "test description 5"}
+        {title: "Project Euler", href: "#", description:  "Information, projects and code solutions in various languages of problems I solved from ProjectEuler"},
+        {title: "Hacker Rank", href: "#",  description: "My HackerRank profile, as well as links to code samples of 'hacks' i have completed"},
+        {title: "Over the Wire", href: "#",  description: "Solutions to solved problems from Over the Wire"},
+        {title: "Unity Game Development (tbd)", href: "#",  description: "Page containing links to my published unity projects for web."},
+        {title: "Windows Phone Development (tbd)", href: "#",  description: "Future page will contain links to download published Windows Phone Apps (8.1 & 10)"},
+        {title: "Windows 10 Development (tbd)", href: "#",  description: "Blog-like page describing anything i learn while navigating through Windows 10 Technical Preview"},
+        {title: "Android Development (tbd)", href: "#",  description: "Future page will contain links to download published Android apps (tablet & phone)"},
+        {title: "iOS Development (tbd)", href: "#",  description: "Future page will contain links to download published iPhone/iPad apps"},
+        {title: "Movies (tbd)", href: "#",  description: "Movie reviews of movies ive watched lately"},
+        {title: "Xbox Games (tbd)", href: "#",  description: "My little section to list xbox games, achievements, and maybe one day a twitch feed or something"},
+        {title: "Apps I Use", href: "#",  description: "List of apps and descriptions of why i use the apps i do"},
+        {title: "Blogs I Read", href: "#",  description: "Links to blogs with information i find cool or useful"}
     ];
 });
