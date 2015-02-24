@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>13Scoobie - Apps I Use</title>
+    <link rel="stylesheet" type="text/css" href="../css/angulardemo.css">
+    <link rel="stylesheet" type="text/css" href="../css/pure-min.css">
+</head>
+
+<body>
+    <div class="wrapper" ng-app="leftHandNav">
+        <!-- Left hand Nav -->
+        <header>
+            <h1>Apps I Use</h1>
+            <br /><br />
+            <div ng-controller="leftNavController">
+                <div ng-repeat="nav in navigation" ng-cloak>
+                    <div class="view" style="margin-top: -17px;">
+                        <a ng-href="{{nav.href}}">{{nav.title}}</a>
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Right Hand Content -->
+        <section id="main">
+            <div ng-controller="rightHandController">   
+                <div ng-repeat="service in servicesArray">
+                    <input type="checkbox" ng-model="service.on" ng-change="checkChange()" />&nbsp; {{service.name}}
+                </div>
+                <hr>
+                <div ng-repeat="right in rightContent | filter:myFunc" class="ng-scope"  id={{right.appName}} ng-cloak style="padding-top: 10px;">
+                    <h2><a ng-href="{{right.href}}">{{right.appName}}</a></h2>
+                        <div class="pure-g" style="border-top: 1px solid #bbb">
+                            <!-- Right Hand Address -->
+                            <div class="pure-u-3-5">
+                                <p>{{right.description}}</p>
+                            </div>
+                            <!-- Left Hand Features -->                 
+                            <div class="pure-u-2-5">
+                                <p><a ng-href="{{right.href}}" target="_blank">Website</a></p>
+                            </div>
+                         </div>
+                     <hr />             
+                </div>  <!-- End of NG Repeat -->
+            </div> <!-- End of Controller -->
+            <div style="height: 400px"> </div><!-- Added as spacer for footer -->
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <small>13Scoobie 2015</small>
+        </footer>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="../js/jquery-2.1.3.min.js"></script>
+    <script src="../js/angular.min.js"></script>  
+    <script src="../js/app_AppsIUse.js"></script>
+</body>
+</html>
