@@ -1,9 +1,9 @@
 var app = angular.module("leftHandNav", []);
 app.controller("leftNavController", function($scope) {
     $scope.navigation = [
-        {title: "1", href: "test3.html", description: "1"},
-        {title: "2", href: "test.html", description: "2"},
-        {title: "3", href: "test2.html", description: "3"}
+        {title: "LinkedIn", href: "https://www.linkedin.com/pub/david-white/41/511/7b8/", description: ""},
+        {title: "GitHub", href: "http://13scoobie.github.io", description: ""},
+        {title: "Stack Overflow", href: "http://stackoverflow.com/users/3565567/user3565567", description: ""}
     ];
 });
 
