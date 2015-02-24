@@ -12,7 +12,7 @@
     <div class="wrapper" ng-app="leftHandNav">
         <!-- Left hand Nav -->
         <header>
-            <h1>Developer Playground</h1>
+            <h1>About Me:</h1>
             <div ng-controller="leftNavController">
                 <div ng-repeat="nav in navigation">
                     <p class="view"><a ng-href="{{nav.href}}">{{nav.title}}</a><br /><small><span class="leftDescription">{{nav.description}}</span></small></p>
@@ -22,12 +22,12 @@
 
         <!-- Right Hand Content -->
         <section id="main">
-            <h1>Test Apps</h1>
+            <h1>Projects/Topics/Etc.</h1>
             <hr/>
             <div ng-controller="rightHandController">
                 <div ng-repeat="right in rightContent">
                     <h2><a ng-href="{{right.href}}">{{right.title}}</a></h2>
-                    <span>Testing {{right.testField}}</span>
+                    <span>{{right.testField}}</span>
                     <p>{{right.description}}</p>
 
                     <hr />
