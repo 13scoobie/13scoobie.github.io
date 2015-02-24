@@ -20,8 +20,8 @@ app.controller("rightHandController", function($scope) {
         {title: "Android Development (tbd)", href: "#",  description: "test description 7"},
         {title: "iOS Development (tbd)", href: "#",  description: "test description 7"},
         {title: "Movies (tbd)", href: "#",  description: "test description 4"},
-        {title: "Xbox Games (tbd)", href: "#",  description: "test description 5"}
+        {title: "Xbox Games (tbd)", href: "#",  description: "test description 5"},
         {title: "Apps I Use", href: "#",  description: "test description 4"},
-        {title: "Blogs I Read", href: "#",  description: "test description 5"},
+        {title: "Blogs I Read", href: "#",  description: "test description 5"}
     ];
 });
