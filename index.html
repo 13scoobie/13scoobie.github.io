@@ -1,84 +1,48 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>@13scoobie</title>
-    
-    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="flyout.js"></script>
-    <!--<link rel="stylesheet" href="flyout_css.css">-->
-    <!--<link rel="stylesheet" href="flyout_menu.css">-->
-    <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+    <title>13Scoobie - Home</title>
+    <link rel="stylesheet" type="text/css" href="css/angulardemo.css">
+</head>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <link rel="stylesheet" href="stylesheets/pure-min.css">
-    <link rel="stylesheet" href="stylesheets/grids-min.css">
-    <link rel="stylesheet" href="stylesheets/grids-responsive-min.css">
+<body>
+    <div class="wrapper" ng-app="leftHandNav">
+        <!-- Left hand Nav -->
+        <header>
+            <h1>About Me:</h1>
+            <div ng-controller="leftNavController">
+                <div ng-repeat="nav in navigation">
+                    <p class="view"><a ng-href="{{nav.href}}">{{nav.title}}</a><br /><small><span class="leftDescription">{{nav.description}}</span></small></p>
+                </div>
+            </div>
+        </header>
 
-        <script>
-      /*jQuery time*/
-      $(document).ready(function(){
-        $(".offcanvas li a").click(function(){
-          //slide up all the link lists
-          $(".offcanvas ul ul").slideUp();
-          //slide down the link list below the h3 clicked - only if its closed
-          if(!$(this).next().is(":visible"))
-          {
-            $(this).next().slideDown();
-          }
-        })
-      });
-    </script>
-  </head>
-  <body class="home nav-collapsed">
-<div height="100%">
-<nav class="offcanvas" role="navigation">
-    <ul>
-      <li><a href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
-      <li><a><i class="fa fa-laptop fa-lg"></i> <span>Development</span></a>
-        <ul>
-          <li><a href="index2.html"><i class="fa fa-slideshare fa-lg"></i> Game Development</a></li>
-          <li><a href="#"><i class="fa fa-flask fa-lg"></i> Unity Engine</a></li>
-          <li><a href="#"><i class="fa fa-android fa-lg"></i>  Android Development</a></li>
-          <li><a href="#"><i class="fa fa-apple fa-lg"></i>  OSX/iOS Development</a></li>
-          <li><a href="#"><i class="fa fa-windows fa-lg"></i>  SharePoint Development</a></li>
-        </ul>
-      </li>
-      <li><a href="#"><i class="fa fa-code fa-lg"></i>  Programming Challenges</a>
-        <ul>
-          <li><a href="#"><i class="fa fa-cogs fa-lg"></i> Hackerrank</a></li>
-          <li><a href="#"><i class="fa fa-calculator fa-lg"></i> ProjectEuler</a></li>
-        </ul>
-      </li>
-      <li><a href="#"><i class="fa fa-sitemap fa-lg"></i>  Web Design</a></li>
-      <li style="margin-left:8px"><a><i class="fa fa-flash fa-lg"></i> Hobbies</a>
-        <ul>
-          <li><a href="#"><i class="fa fa-rebel fa-lg"></i> Xbox (Played/Reviewed/Guides)</a></li>
-          <li><a href="#"><i class="fa fa-ticket fa-lg"></i> Movies (Watched/Reviewed)</a></li>
-          <li><a href="#"><i class="fa fa-automobile fa-lg"></i>  Subarus</a></li>
-          <li><a href="#"><i class="fa fa-beer fa-lg"></i>  Beer</a></li>
-        </ul>
-      </li>
-    </ul>
-</nav>
-<div class="content-frame">
-  <section>
-    <h3>
-    <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>November 09 2014</h3>
-    <p>Welcome to My GitHub Page.</p>
-    <p>Well here it goes. My first page. Starting android development tonight. Wish me luck
-    -13scoobie</p>
-  </section>
-  <section>
-    <h3>
-    <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>November 11 2014 - Veterans Day</h3>
-    <p>Have the day off, so spent it playing around with CSS -13scoobie 11.11.2014</p>
-    <p>On a side note, thank you to all that have served, and are currently serving, giving me the freedom to write code</p>
-  </section>
+        <!-- Right Hand Content -->
+        <section id="main">
+            <h1>Projects/Topics/Etc.</h1>
+            <hr/>
+            <div ng-controller="rightHandController">
+                <div ng-repeat="right in rightContent">
+                    <h2><a ng-href="{{right.href}}">{{right.title}}</a></h2>
+                    <span>{{right.testField}}</span>
+                    <p>{{right.description}}</p>
+
+                    <hr />
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <!--  -->
+            <small>13Scoobie 2015</small>
+        </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    </div>
-  </body>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
 </html>
