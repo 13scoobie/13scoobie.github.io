@@ -1,0 +1,14 @@
+.movieHeader {
+    padding-bottom: 15px;
+}
+.movieCover {
+    float: left;
+}
+.movieCover img {
+    display: block;
+}
+.movieContent {
+    margin-left: 210px;
+    margin-top: -15px;
+    height: 270px;
+}

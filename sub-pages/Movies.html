@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Movies</title>
+    <link rel="stylesheet" type="text/css" href="../angulardemo.css">
+    <link rel="stylesheet" type="text/css" href="../movies.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Left hand Nav -->
+        <header>
+            <h1>Navigation</h1>
+            <h3><input type="checkbox" name="bluray" value="bluray">Bluray</h3>
+            <h3><input type="checkbox" name="dvd" value="dvd">DVD</h3>
+            <br />
+            
+        </header>
+
+        <!-- Right Hand Content -->
+        <div ng-app="MovieList">
+        <section id="main" ng-controller="MovieListController">
+            <h1>Movies We Own</h1>
+            <input placeholder="Please enter a movie:" style="width: 100%; margin-bottom: 25px;" ng-model="query" ng-change="valueChanged(movie, value)"></input>
+            <hr/>
+            <div>
+            	<div ng-repeat="movie in movies | filter:query | orderBy:'Title'">
+            	    <div class="movieHeader">
+                    	<h2><a ng-href="http://www.imdb.com/title/{{movie.imdbID}}">{{movie.Title}}</a><br />
+                    	<span><small> IMDB: {{movie.imdbRating}} | IMDB Votes: {{movie.imdbVotes}} | MetaScore: {{movie.Metascore}} </small></span></h2>
+                    </div>	
+                    <div class="movieCover">
+                       <img ng-Src="{{movie.Poster}}" alt="{{movie.Title}}" width="175px;" />
+                    </div>
+                    <div class="movieContent">
+                    	<p><b>Year:</b> {{movie.Year}} | Release Date: {{movie.Released}}</p>
+                    	<p><b>Rated:</b> {{movie.Rated}}</p>
+                    	<p><b>Runtime:</b> {{movie.Runtime}}</p>
+                    	<p><b>Genre:</b> {{movie.Genre}}</p>
+                    	<p><b>Director:</b> {{movie.Director}}</p>
+                    	<p><b>Stars:</b> {{movie.Actors}}</p>
+                    </div>
+                    <p>Plot:</b> {{movie.Plot}}</p>
+                    <hr />
+                </div>
+            </div>
+        </section>
+		</div>
+		
+		<!-- Footer -->
+    	<footer>
+    	    <small>13Scoobie, 2015</small>
+    	    <br />
+    	    <small>Credits: <a href="http://www.omdbapi.com/" target="_blank">OMDB</a>, <a href="http://www.wikipedia.com" target="_blank">Wikipedia</a>, <a href="http://www.imdb.com" target="_blank">IMDB</a></small>
+    	</footer>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="../js/jquery-2.1.3.min.js"></script>
+    <script src="../js/angular.min.js"></script>
+    <script src="../sub-pages-js/movies.js"></script>
+</body>
+</html>

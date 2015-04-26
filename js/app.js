@@ -22,6 +22,7 @@ app.controller("rightHandController", function($scope) {
         {title: "Movies (tbd)", href: "#",  description: "Movie reviews of movies ive watched lately"},
         {title: "Xbox Games (tbd)", href: "#",  description: "My little section to list xbox games, achievements, and maybe one day a twitch feed or something"},
         {title: "Apps I Use", href: "#",  description: "List of apps and descriptions of why i use the apps i do"},
-        {title: "Blogs I Read", href: "#",  description: "Links to blogs with information i find cool or useful"}
-    ];
+        {title: "Blogs I Read", href: "#",  description: "Links to blogs with information i find cool or useful"},
+        {title: "Courses I have taken", href: "#", description: "Courses i have found on sites such as Coursera, Khan Academy, Code School, etc."}
+        ];
 });
