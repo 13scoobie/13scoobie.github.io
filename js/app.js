@@ -12,17 +12,16 @@ app.controller("leftNavController", function($scope) {
 app.controller("rightHandController", function($scope) {
     $scope.rightContent = [
         {title: "Project Euler", href: "/sub-pages/ProjectEuler.html", description:  "Information, projects and code solutions in various languages of problems I solved from ProjectEuler"},
-        {title: "Hacker Rank", href: "#",  description: "My HackerRank profile, as well as links to code samples of 'hacks' i have completed"},
-        {title: "Over the Wire", href: "#",  description: "Solutions to solved problems from Over the Wire"},
+        {title: "Hacker Rank (tbd)", href: "#",  description: "My HackerRank profile, as well as links to code samples of 'hacks' i have completed"},
+        {title: "Over the Wire (tbd)", href: "#",  description: "Solutions to solved problems from Over the Wire"},
         {title: "Unity Game Development (tbd)", href: "#",  description: "Page containing links to my published unity projects for web."},
-        {title: "Windows Phone Development (tbd)", href: "#",  description: "Future page will contain links to download published Windows Phone Apps (8.1 & 10)"},
         {title: "Windows 10 Development (tbd)", href: "#",  description: "Blog-like page describing anything i learn while navigating through Windows 10 Technical Preview"},
         {title: "Android Development (tbd)", href: "#",  description: "Future page will contain links to download published Android apps (tablet & phone)"},
         {title: "iOS Development (tbd)", href: "#",  description: "Future page will contain links to download published iPhone/iPad apps"},
-        {title: "Movies (tbd)", href: "/sub-pages/Movies.html",  description: "Movie reviews of movies ive watched lately"},
+        {title: "Movies", href: "/sub-pages/Movies.html",  description: "Movie reviews of movies ive watched lately"},
         {title: "Xbox Games (tbd)", href: "#",  description: "My little section to list xbox games, achievements, and maybe one day a twitch feed or something"},
         {title: "Apps I Use", href: "/sub-pages/AppsIUse.html",  description: "List of apps and descriptions of why i use the apps i do"},
-        {title: "Blogs I Read", href: "#",  description: "Links to blogs with information i find cool or useful"},
-        {title: "Courses I have taken", href: "#", description: "Courses i have found on sites such as Coursera, Khan Academy, Code School, etc."}
+        {title: "Blogs I Read (tbd)", href: "#",  description: "Links to blogs with information i find cool or useful"},
+        {title: "Courses I have taken (tbd)", href: "#", description: "Courses i have found on sites such as Coursera, Khan Academy, Code School, etc."}
         ];
 });

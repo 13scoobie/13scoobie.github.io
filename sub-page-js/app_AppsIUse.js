@@ -2,7 +2,8 @@ var app_AppsIUse = angular.module("leftHandNav", []);
 app_AppsIUse.controller("leftNavController", function($scope) {
     $scope.navigation = [
         {title: "Sublime Text Editor", href: "#Sublime", description: "Text Editor"},
-		{title: "Visual Studio", href: "#VisualStudio", description: "Development IDE"}
+		{title: "Visual Studio", href: "#VisualStudio", description: "Development IDE"},
+        {title: "Back to Homepage", href: "http://13scoobie.github.io"}
     ];
 });
 
