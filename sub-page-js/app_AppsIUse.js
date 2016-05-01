@@ -2,6 +2,9 @@ var app_AppsIUse = angular.module("leftHandNav", []);
 app_AppsIUse.controller("leftNavController", function($scope) {
     $scope.navigation = [
         {title: "Sublime Text Editor", href: "#Sublime", description: "Text Editor"},
+        {title: "Google Chrome", href: "#GoogleChrome", description: "Browser"},
+        {title: "Firefox", href: "#Firefox", description: "Browser"},
+        {title: "Firebug", href: "#Firebug", description: "Browser Extension"},
 		{title: "Visual Studio", href: "#VisualStudio", description: "Development IDE"},
         {title: "Back to Homepage", href: "http://13scoobie.github.io"}
     ];
@@ -50,6 +53,30 @@ app_AppsIUse.controller("rightHandController", function($scope) {
 	];
 
     $scope.rightContent = [
+        {
+            appName: "GoogleChrome", 
+            href: "https://www.google.com/chrome/", 
+            description: "Browser released by Google", 
+            "technology": [
+                "Web Development"
+            ]
+        },
+        {
+            appName: "Firefox", 
+            href: "https://www.mozilla.org/en-US/firefox/new/", 
+            description: "Browser released by Mozilla team", 
+            "technology": [
+                "Web Development"
+            ]
+        },
+        {
+            appName: "Firebug", 
+            href: "getfirebug.com/", 
+            description: "Extension that comes in handy for web development (for firefox)", 
+            "technology": [
+                "Web Development"
+            ]
+        },        
 		{
 			appName: "Sublime", 
 			href: "http://www.sublimetext.com", 
