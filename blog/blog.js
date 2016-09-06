@@ -5,13 +5,13 @@ app.controller("leftNavController", function($scope) {
         {title: "GitHub", href: "https://github.com/13scoobie", description: ""},
         {title: "Stack Overflow", href: "http://stackoverflow.com/users/3565567/user3565567", description: ""},
         {title: "Website", href: "http://13scoobie.github.io/", description: ""},
-        {title: "Blog", href: "http://13scoobie.github.io/poole/", description: ""}
+        {title: "Blog", href: "http://13scoobie.github.io/blog/", description: ""}
     ];
 });
 
 app.controller("rightHandController", function($scope) {
     $scope.rightContent = [
-        {title: "First Blog Post", href: "09052016-first-blog-post.html", description:  "First Blog post - description to come later (in progress)", publishdate: "09/05/2016"},
-        {title: "Second Blog Post", href: "09052016-second-blog-post.html", description:  "Second Blog post - description to come later (in progress)", publishdate: "09/05/2016"}
+        {title: "First Blog Post", href: "pages/09052016-first-blog-post.html", description:  "First Blog post - description to come later (in progress)", publishdate: "09/05/2016"},
+        {title: "Second Blog Post", href: "pages/09052016-fix-static-site.html", description:  "Things i need to change to this website", publishdate: "09/05/2016"}
         ];
 });
