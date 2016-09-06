@@ -5,7 +5,7 @@ app.controller("leftNavController", function($scope) {
         {title: "GitHub", href: "https://github.com/13scoobie", description: ""},
         {title: "Stack Overflow", href: "http://stackoverflow.com/users/3565567/user3565567", description: ""},
         {title: "Website", href: "http://13scoobie.github.io/", description: ""},
-        {title: "Blog", href: "http://13scoobie.github.io/poole/", description: ""}
+        {title: "Blog", href: "http://13scoobie.github.io/blog/", description: ""}
     ];
 });
 
