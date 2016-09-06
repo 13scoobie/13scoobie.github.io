@@ -11,6 +11,6 @@ app.controller("leftNavController", function($scope) {
 
 app.controller("rightHandController", function($scope) {
     $scope.rightContent = [
-        {title: "First Blog Post", href: "09052016.html", description:  "First Blog post - description to come later (in progress)"}
+        {title: "First Blog Post", href: "09052016.html", description:  "First Blog post - description to come later (in progress)", publishdate: "09/05/2016"}
         ];
 });

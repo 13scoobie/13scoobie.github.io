@@ -22,11 +22,12 @@
 
         <!-- Right Hand Content -->
         <section id="main">
-            <h1>Projects/Topics/Etc.</h1>
+            <h1>Posts</h1>
             <hr/>
             <div ng-controller="rightHandController">
                 <div ng-repeat="right in rightContent">
                     <h2><a ng-href="{{right.href}}">{{right.title}}</a></h2>
+                    <i><span style="color: #333333">{{right.publishdate}}</span></i>
                     <span>{{right.testField}}</span>
                     <p>{{right.description}}</p>
 
