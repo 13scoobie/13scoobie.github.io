@@ -12,6 +12,7 @@ app.controller("leftNavController", function($scope) {
 app.controller("rightHandController", function($scope) {
     $scope.rightContent = [
         {title: "First Blog Post", href: "pages/09052016-first-blog-post.html", description:  "First Blog post - description to come later (in progress)", publishdate: "09/05/2016"},
-        {title: "Second Blog Post", href: "pages/09052016-fix-static-site.html", description:  "Things i need to change to this website", publishdate: "09/05/2016"}
+        {title: "Second Blog Post", href: "pages/09052016-fix-static-site.html", description:  "Things i need to change to this website", publishdate: "09/05/2016"},
+        {title: "The Plan...", href: "pages/09262016-the-plan.html", description: "I plan to read 1 book a week and make atleast 1 commit a day to this blog", publishdate: "09/26/2016"}
         ];
 });
