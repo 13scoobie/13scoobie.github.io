@@ -25,7 +25,7 @@
             <h1>Posts</h1>
             <hr/>
             <div ng-controller="rightHandController">
-                <div ng-repeat="right in rightContent">
+                <div ng-repeat="right in rightContent | orderBy:'-publishdate'">
                     <h2><a ng-href="{{right.href}}">{{right.title}}</a></h2>
                     <i><span style="color: #333333;">{{right.publishdate}}</span></i>
                     <span>{{right.testField}}</span>
