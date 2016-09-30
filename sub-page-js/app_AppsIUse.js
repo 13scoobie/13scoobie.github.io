@@ -80,22 +80,21 @@ app_AppsIUse.controller("rightHandController", function($scope) {
                 "Web Development"
             ]
         },
-		{
-			appName: "Sublime",
-			href: "http://www.sublimetext.com",
-			description: "Text editor used for writing code quickly",
-			"technology": [
-				"Web Development"
-			]
-		},
-		{
-			appName: "VisualStudio",
-			href: "http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx",
-			description: "My Main IDE for c#/ASP.net Development",
-			"technology": [
-				"Web Development", "Windows Development"
-			]
-		},
-
+    		{
+    			appName: "Sublime",
+    			href: "http://www.sublimetext.com",
+    			description: "Text editor used for writing code quickly",
+    			"technology": [
+    				"Web Development"
+    			]
+    		},
+    		{
+    			appName: "VisualStudio",
+    			href: "http://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx",
+    			description: "My Main IDE for c#/ASP.net Development",
+    			"technology": [
+    				"Web Development", "Windows Development"
+    			]
+    		}
 	];
 });
