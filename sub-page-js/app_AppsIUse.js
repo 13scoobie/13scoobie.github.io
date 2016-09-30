@@ -7,8 +7,8 @@ app_AppsIUse.controller("leftNavController", function($scope) {
         {title: "Firefox", href: "#Firefox", description: "Browser"},
         {title: "Firebug", href: "#Firebug", description: "Browser Extension"},
 		    {title: "Visual Studio", href: "#VisualStudio", description: "Development IDE"},
-        {title: "Eclipse", href: "#eclipse", description "Development IDE"},
-        {title: "Atom", href: "#atom", description "Development IDE"},
+        {title: "Eclipse", href: "#eclipse", description: "Development IDE"},
+        {title: "Atom", href: "#atom", description: "Development IDE"},
         {title: "Back to Homepage", href: "http://13scoobie.github.io"}
     ];
 });
