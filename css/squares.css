@@ -6,7 +6,8 @@
 .topic-square {
 	min-width: 248px;
 	max-width: 248px;
-	height: 186px;
+	height: 180px;
+	overflow-x: hidden;
 }
 
 .topic-color-blue {
@@ -18,7 +19,7 @@
 }
 
 .topic-color-teal {
-	border-top: 1px solid #00897B;
+	border-top: 1px solid #CDDC39;
 }
 
 .topic-color-orange {
