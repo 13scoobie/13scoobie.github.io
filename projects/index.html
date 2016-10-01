@@ -1,1 +1,49 @@
-temp place holder
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>13Scoobie - Projects</title>
+    <link rel="stylesheet" type="text/css" href="../css/angulardemo.css">
+</head>
+
+<body>
+    <div class="wrapper" ng-app="leftHandNav">
+        <!-- Left hand Nav -->
+        <header>
+            <h1>About Me:</h1>
+            <div ng-controller="leftNavController">
+                <div ng-repeat="nav in navigation">
+                    <p class="view"><a ng-href="{{nav.href}}">{{nav.title}}</a><br /><small><span class="leftDescription">{{nav.description}}</span></small></p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Right Hand Content -->
+        <section id="main">
+            <span style="font-size: 28px; color: #000;"><b>Projects</b></span><span style="float: right"><button onclick="goBack()">Back</button></span>
+            <hr/>
+            <div ng-controller="rightHandController">
+                <div ng-repeat="right in rightContent">
+                    <h2><a ng-href="{{right.href}}">{{right.title}}</a></h2>
+                    <span>{{right.testField}}</span>
+                    <p>{{right.description}}</p>
+
+                    <hr />
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <!--  -->
+            <small>13Scoobie 2016</small>
+        </footer>
+    </div>
+    <script src="../js/jquery-2.1.3.min.js"></script>
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/functions.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+
+</html>
