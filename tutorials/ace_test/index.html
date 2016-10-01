@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
 <title>ACE in Action</title>
-<style type="text/css" media="screen">
-    #editor { 
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-</style>
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
 </head>
 <body>
 
-<div id="editor">function foo(items) {
-    var x = "All this is syntax highlighted";
-    alert(x);
-    return x;
-}</div>
-    
+  <div class="container" style="margin-top: 25px;">
+      <div class="panel panel-default">
+          <div class="panel-heading">
+               <h3 class="panel-title">Editor</h3>
+          </div>
+          <div class="panel-body">
+            <div id="editor" style="height: 300px;">function foo(items) {
+                var x = "All this is syntax highlighted";
+                return x;
+            }</div>
+          </div>
+      </div>
+  </div>
+
 <script src="ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
     var editor = ace.edit("editor");
