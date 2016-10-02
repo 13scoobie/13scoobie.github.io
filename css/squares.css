@@ -4,10 +4,10 @@
 }
 
 .topic-square {
-	min-width: 248px;
-	max-width: 248px;
+	min-width: 220px;
+
 	height: 180px;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .topic-color-blue {
