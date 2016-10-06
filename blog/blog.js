@@ -18,7 +18,7 @@ app.controller("rightHandController", function($scope) {
         {title: "The New Plan...", href: "pages/09272016-new-plan.html", description: "Changing to one book a month, and adding 1 language a month", publishdate: "09/27/2016 21:06:30"},
         {title: "The First Book", href: "pages/09282016-first-book.html", description: "Started my first book, 'Pragmatic Programmer from Journeyman to Master'", publishdate: "09/28/2016 20:26:00"},
         {title: "React & Angular", href: "pages/09292016-react-and-angular.html", description: "Start diving into React and Angular 2.0, write some code in both and see what each has to offer", publishdate: "09/29/2016 20:41:00"},
-        {title: "Google Hardware (Pixel/Andromeda)", href: "pages/10032016-google-hardware.html", description: "Google Hardware event tomorrow!", publishdate: "10/03/2016 20:24:00"}
+        {title: "Google Hardware (Pixel/Andromeda)", href: "pages/10032016-google-hardware.html", description: "Google Hardware event tomorrow!", publishdate: "10/03/2016 20:24:00"},
         {title: "Google Hardware (Pixel/Andromeda)", href: "pages/10042016-google-pixel-phones.html", description: "Google Pixel Phones", publishdate: "10/04/2016 20:07:00"}
         ];
 });

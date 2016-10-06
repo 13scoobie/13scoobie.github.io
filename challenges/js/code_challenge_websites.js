@@ -14,7 +14,7 @@ app.controller("rightHandController", function($scope) {
     $scope.rightContent = [
         {title: "Project Euler", href: "../sub-pages/ProjectEuler.html", description: "Project Euler Solutions"},
         {title: "Codingame", href: "../sub-pages/Codingame.html", description: "Codingame Solutions"},
-        {title: "Hackerrank", href: "../sub-pages/Hackerrank.html", description: "Hackerrank Solutions"},
+        {title: "Hackerrank", href: "HackerRank/", description: "Hackerrank Solutions"},
         {title: "Codewars", href: "../sub-pages/Codewars.html", description: "Code Wars Solutions"},
         {title: "Excercism IO", href: "../sub-pages/Excercismio.html", description: "Excercism.io Solutions"},
     ];
