@@ -12,10 +12,14 @@ app.controller("leftNavController", function($scope) {
 
 app.controller("rightHandController", function($scope) {
     $scope.rightContent = [
-        {title: "Project Euler", href: "../sub-pages/ProjectEuler.html", description: "Project Euler Solutions"},
-        {title: "Codingame", href: "../sub-pages/Codingame.html", description: "Codingame Solutions"},
+
+        {title: "Codewars", href: "Codewars/", description: "Code Wars Solutions"},
+        {title: "Codingame", href: "Codingame/", description: "Codingame Solutions"},
+        {title: "Excercism IO", href: "Excercismio/", description: "Excercism.io Solutions"},
+        {title: "Google Code Jam", href: "HackerRank/", description: "Google Code Jame Solutions"},
         {title: "Hackerrank", href: "HackerRank/", description: "Hackerrank Solutions"},
-        {title: "Codewars", href: "../sub-pages/Codewars.html", description: "Code Wars Solutions"},
-        {title: "Excercism IO", href: "../sub-pages/Excercismio.html", description: "Excercism.io Solutions"},
+        {title: "LeetCode", href: "leetcode/", description: "LeetCode Solutions"},
+        {title: "Open AI Gym", href: "OpenAIGym/", description: "Open AI Gym Solutions"},
+        {title: "Project Euler", href: "ProjectEuler/", description: "Project Euler Solutions"}
     ];
 });
