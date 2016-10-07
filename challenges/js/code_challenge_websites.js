@@ -13,13 +13,13 @@ app.controller("leftNavController", function($scope) {
 app.controller("rightHandController", function($scope) {
     $scope.rightContent = [
 
-        {title: "Codewars", href: "Codewars/", description: "Code Wars Solutions"},
-        {title: "Codingame", href: "Codingame/", description: "Codingame Solutions"},
-        {title: "Excercism IO", href: "Excercismio/", description: "Excercism.io Solutions"},
-        {title: "Google Code Jam", href: "HackerRank/", description: "Google Code Jame Solutions"},
-        {title: "Hackerrank", href: "HackerRank/", description: "Hackerrank Solutions"},
-        {title: "LeetCode", href: "leetcode/", description: "LeetCode Solutions"},
-        {title: "Open AI Gym", href: "OpenAIGym/", description: "Open AI Gym Solutions"},
-        {title: "Project Euler", href: "ProjectEuler/", description: "Project Euler Solutions"}
+        {title: "Codewars (0)", href: "Codewars/", description: "Code Wars Solutions"},
+        {title: "Codingame (0)", href: "Codingame/", description: "Codingame Solutions"},
+        {title: "Excercism IO (0)", href: "Excercismio/", description: "Excercism.io Solutions"},
+        {title: "Google Code Jam (0)", href: "GoogleCodeJam/", description: "Google Code Jame Solutions"},
+        {title: "Hackerrank (1)", href: "HackerRank/", description: "Hackerrank Solutions"},
+        {title: "LeetCode (0)", href: "leetcode/", description: "LeetCode Solutions"},
+        {title: "Open AI Gym (0)", href: "OpenAIGym/", description: "Open AI Gym Solutions"},
+        {title: "Project Euler (0)", href: "ProjectEuler/", description: "Project Euler Solutions"}
     ];
 });
