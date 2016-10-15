@@ -18,7 +18,7 @@ app.controller("rightHandController", function($scope) {
         {title: "Exercism IO (2)", href: "Exercism/", description: "Exercism.io Solutions"},
         {title: "Google Code Jam (0)", href: "GoogleCodeJam/", description: "Google Code Jame Solutions"},
         {title: "Hackerrank (1)", href: "HackerRank/", description: "Hackerrank Solutions"},
-        {title: "LeetCode (0)", href: "leetcode/", description: "LeetCode Solutions"},
+        {title: "LeetCode (5)", href: "leetcode/", description: "LeetCode Solutions"},
         {title: "Open AI Gym (0)", href: "OpenAIGym/", description: "Open AI Gym Solutions"},
         {title: "Project Euler (0)", href: "ProjectEuler/", description: "Project Euler Solutions"}
     ];
