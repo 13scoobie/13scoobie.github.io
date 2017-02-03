@@ -26,3 +26,12 @@ app.controller("rightHandController", function($scope) {
         {title: "Why am I blogging/programming?", href: "pages/01262017-why-blog.html", description: "Find out why I'm blogging (i should make a ramblings section)", publishdate: "01/26/2017 16:11:00"}
         ];
 });
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-91422300-1', 'auto');
+ga('send', 'pageview');
