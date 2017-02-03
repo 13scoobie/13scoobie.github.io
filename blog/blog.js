@@ -47,5 +47,20 @@ var links = document.querySelectorAll("a");
 links.forEach(function(link) {
   link.addEventListener("click", function() {
     trackOutboundLink(link.href);
+    return false;
   })
+});
+
+var testGoogleEvent = function() {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Blog',
+        eventAction: 'Like',
+        eventLabel: document.getElementsByTagName("title")[0].innerHTML
+    });
+}
+
+var like_button = document.querySelector("#like_button");
+like_button.addEventListener("click", function() {
+    testGoogleEvent();
 });
