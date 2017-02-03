@@ -25,3 +25,18 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-91422300-1', 'auto');
 ga('send', 'pageview');
+
+
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+
+var links = document.querySelectorAll("a");
+links.forEach(function(link) {
+  link.addEventListener("click", function() {
+    trackOutboundLink(link.href);
+  })
+});
