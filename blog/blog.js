@@ -23,7 +23,8 @@ app.controller("rightHandController", function ($scope) {
         { title: "First Challenge", href: "pages/10062016-first-challenge-done.html", description: "First Programming Challenge complete - Left Shift Array", publishdate: "10/06/2016 21:03:00" },
         { title: "New Year - New Post", href: "pages/01262017-new-year-new-post.html", description: "Welcome to 2017 - It's a new year, lots of fun things to look forward to", publishdate: "01/26/2017 15:54:00" },
         { title: "Blog updates and new upcoming topics", href: "pages/01262017-upcoming-updates.html", description: "Lots of stuff in the pipeline, new technology, more insight, what am i using? what projects am i wanting to dive into", publishdate: "01/26/2017 15:59:00" },
-        { title: "Why am I blogging/programming?", href: "pages/01262017-why-blog.html", description: "Find out why I'm blogging (i should make a ramblings section)", publishdate: "01/26/2017 16:11:00" }
+        { title: "Why am I blogging/programming?", href: "pages/01262017-why-blog.html", description: "Find out why I'm blogging (i should make a ramblings section)", publishdate: "01/26/2017 16:11:00" },
+        { title: "Code Challenge Updates", href: "pages/02032017-code-challenge-updates.html", description: "Explanation of planned updates to the code challenge portion of the website", publishdate: "02/03/2017 17:10:00" }
     ];
 });
 
