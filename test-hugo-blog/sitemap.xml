@@ -3,12 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://13scoobie.github.io/test-hugo-blog/posts/my-fifth-post/</loc>
+    <lastmod>2018-01-16T20:25:21-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://13scoobie.github.io/test-hugo-blog/posts/my-fourth-post/</loc>
+    <lastmod>2018-01-16T20:25:16-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://13scoobie.github.io/test-hugo-blog/posts/my-third-post/</loc>
+    <lastmod>2018-01-16T20:25:13-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://13scoobie.github.io/test-hugo-blog/posts/my-second-post/</loc>
+    <lastmod>2018-01-16T20:25:08-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://13scoobie.github.io/test-hugo-blog/posts/my-first-post/</loc>
+    <lastmod>2018-01-16T20:20:35-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://13scoobie.github.io/test-hugo-blog/</loc>
+    <lastmod>2018-01-16T20:25:21-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://13scoobie.github.io/test-hugo-blog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://13scoobie.github.io/test-hugo-blog/posts/</loc>
+    <lastmod>2018-01-16T20:25:21-08:00</lastmod>
     <priority>0</priority>
   </url>
   
