@@ -15,6 +15,7 @@ app.controller("rightHandController", function($scope) {
     {title: "Challenges", href: "/challenges/", description: "Solutions to code challenges from sites such as Hackerrank and Codingame"},
     {title: "Projects", href: "/projects/", description: "Information, projects and code solutions in various languages of problems I solved"},
     {title: "Tutorials", href: "/tutorials/", description: "Tutorials for languages i learn/use and want to share with others"},
+    {title: "Blog", href: "/blog/", description: "Random tidbits of stuff im interested in / blog about"},
   ];
 });
 
