@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://13scoobie.github.io/</loc>
+    <loc>https://13scoobie.github.io/test-hugo-blog/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://13scoobie.github.io/categories/</loc>
+    <loc>https://13scoobie.github.io/test-hugo-blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://13scoobie.github.io/tags/</loc>
+    <loc>https://13scoobie.github.io/test-hugo-blog/tags/</loc>
     <priority>0</priority>
   </url>
   
