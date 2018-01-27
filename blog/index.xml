@@ -6,10 +6,20 @@
     <description>Recent content on Blog, Thoughts, and Interesting Links</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jan 2018 12:33:27 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jan 2018 14:42:01 -0800</lastBuildDate>
     
 	<atom:link href="https://13scoobie.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Staying Focused</title>
+      <link>https://13scoobie.github.io/blog/posts/staying-focused/</link>
+      <pubDate>Sat, 27 Jan 2018 14:42:01 -0800</pubDate>
+      
+      <guid>https://13scoobie.github.io/blog/posts/staying-focused/</guid>
+      <description>I don&amp;rsquo;t know if its a mix of imposter syndrome, so many ideas i dont know where to start, the worry of being &amp;ldquo;job interview ready&amp;rdquo; at any point, or what, but often i find myself overwhelmed and unsure of where to go next, what project i should be working on, what framework i should be learning&amp;hellip;
+The world of computer science/programming/coding/etc. is so exciting and growing every day. So many talented engineers are off creating new things, improving on old concepts and making things faster/more efficient.</description>
+    </item>
     
     <item>
       <title>Bitwise Operators in Python</title>

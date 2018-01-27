@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://13scoobie.github.io/blog/posts/staying-focused/</loc>
+    <lastmod>2018-01-27T14:42:01-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://13scoobie.github.io/blog/posts/bitwise-operators-in-python/</loc>
     <lastmod>2018-01-18T12:33:27-08:00</lastmod>
   </url>
@@ -15,12 +20,18 @@
   
   <url>
     <loc>https://13scoobie.github.io/blog/</loc>
-    <lastmod>2018-01-18T12:33:27-08:00</lastmod>
+    <lastmod>2018-01-27T14:42:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://13scoobie.github.io/blog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://13scoobie.github.io/blog/tags/focus/</loc>
+    <lastmod>2018-01-27T14:42:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -31,8 +42,14 @@
   </url>
   
   <url>
+    <loc>https://13scoobie.github.io/blog/tags/pomodoro/</loc>
+    <lastmod>2018-01-27T14:42:01-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://13scoobie.github.io/blog/posts/</loc>
-    <lastmod>2018-01-18T12:33:27-08:00</lastmod>
+    <lastmod>2018-01-27T14:42:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
