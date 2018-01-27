@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Blog, Thoughts, and Interesting Links</title>
+    <link>https://13scoobie.github.io/blog/tags/learning/</link>
+    <description>Recent content in Learning on Blog, Thoughts, and Interesting Links</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jan 2018 12:33:27 -0800</lastBuildDate>
+    
+	<atom:link href="https://13scoobie.github.io/blog/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bitwise Operators in Python</title>
+      <link>https://13scoobie.github.io/blog/posts/bitwise-operators-in-python/</link>
+      <pubDate>Thu, 18 Jan 2018 12:33:27 -0800</pubDate>
+      
+      <guid>https://13scoobie.github.io/blog/posts/bitwise-operators-in-python/</guid>
+      <description>These are my notes from learning about bitwise operators
+&amp;amp; : AND Copies bit if it exists in both | : OR Copies bit if it exists in either ^ : XOR Copies bit if it exists in one but not the other ~ : One&#39;s Compliment Flip bits &amp;lt;&amp;lt; : Left Shift move left operand left by right operand number of bits &amp;gt;&amp;gt; : Right Shift move left operand right by right operand number of bits  Examples were easy to understand from a textual definition, but to see a visual, i wrote the following python code to show the binary versions.</description>
+    </item>
+    
+  </channel>
+</rss>
